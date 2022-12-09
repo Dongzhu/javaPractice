@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f68fef-0756-439b-b0df-3a009953fa4a" name="Changes" comment="本次主要更新一系列的java键盘输入和数组操作的简单示例">
+    <list default="true" id="50f68fef-0756-439b-b0df-3a009953fa4a" name="Changes" comment="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；">
       <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayExpansion.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayExpansion02.java" afterDir="false" />
@@ -143,7 +143,7 @@
       <workItem from="1670244747530" duration="778000" />
       <workItem from="1670302102487" duration="9400000" />
       <workItem from="1670495036297" duration="7627000" />
-      <workItem from="1670575629103" duration="15457000" />
+      <workItem from="1670575629103" duration="15775000" />
     </task>
     <task id="LOCAL-00001" summary="本次主要更新一系列的java键盘输入和数组操作的简单示例">
       <created>1670598530106</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670598530106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；">
+      <created>1670603728676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670603728676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +178,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="本次主要更新一系列的java键盘输入和数组操作的简单示例" />
-    <option name="LAST_COMMIT_MESSAGE" value="本次主要更新一系列的java键盘输入和数组操作的简单示例" />
+    <MESSAGE value="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；" />
+    <option name="LAST_COMMIT_MESSAGE" value="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；" />
   </component>
 </project>
