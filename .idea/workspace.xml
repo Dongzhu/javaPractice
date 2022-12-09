@@ -2,29 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f68fef-0756-439b-b0df-3a009953fa4a" name="Changes" comment="本次主要更新一系列的java键盘输入和数组操作的简单示例">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaBasic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KeyboardInputMethod01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KeyboardInputMethod02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KeyboardInputMethod03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KeyboardInputMethod04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VarExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VarValueRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VariableAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayCreateMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayCreate_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayDefaultValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayElementVisit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayLoopForVar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayOperationTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayOperationTest02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/siftOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayExpansion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayExpansion02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArraySystemCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +22,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -66,9 +54,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayOperationTest02">
-    <configuration name="ArrayCreateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayCreateMethod" />
+  <component name="RunManager" selected="Application.ArraySystemCopy">
+    <configuration name="ArrayExpansion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayExpansion" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
@@ -80,21 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDefaultValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayDefaultValue" />
-      <module name="javaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayElementVisit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayElementVisit" />
+    <configuration name="ArrayExpansion02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayExpansion02" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArraySystemCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayTest.ArraySystemCopy" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySystemCopy" />
+        <item itemvalue="Application.ArrayExpansion02" />
+        <item itemvalue="Application.ArrayExpansion" />
         <item itemvalue="Application.ArrayOperationTest02" />
         <item itemvalue="Application.ArrayOperationTest01" />
-        <item itemvalue="Application.ArrayCreateMethod" />
-        <item itemvalue="Application.ArrayDefaultValue" />
-        <item itemvalue="Application.ArrayElementVisit" />
       </list>
     </recent_temporary>
   </component>
@@ -155,8 +143,16 @@
       <workItem from="1670244747530" duration="778000" />
       <workItem from="1670302102487" duration="9400000" />
       <workItem from="1670495036297" duration="7627000" />
-      <workItem from="1670575629103" duration="10673000" />
+      <workItem from="1670575629103" duration="15457000" />
     </task>
+    <task id="LOCAL-00001" summary="本次主要更新一系列的java键盘输入和数组操作的简单示例">
+      <created>1670598530106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670598530106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
