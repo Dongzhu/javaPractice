@@ -13,7 +13,8 @@ public class ArraySystemCopy {
         //  创建新数组的长度为数组1和数组2长度之和
         int [] newArray = new int[arr1.length + arr2.length];
 
-/*    //  将数组1的元素复制到新数组中
+/*
+   //  将数组1的元素复制到新数组中
     int length1 = arr1.length;
     for (int i = 0; i < length1; i ++) {
         newArray[i] = arr1[i];
@@ -22,7 +23,9 @@ public class ArraySystemCopy {
     //  将数组2的元素复制到新数组中
     for (int i = 0; i < arr2.length; i ++) {
         newArray[arr1.length + i] = arr2[i];
-    }*/
+    }
+
+    */
 
         System.arraycopy(arr1, 0, newArray, 0, arr1.length);
         System.arraycopy(arr2, 0, newArray, arr1.length, arr2.length);
