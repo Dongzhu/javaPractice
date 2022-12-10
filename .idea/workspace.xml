@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f68fef-0756-439b-b0df-3a009953fa4a" name="Changes" comment="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；">
-      <change afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayExpansion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArrayExpansion02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayTest/ArraySystemCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaInterviewKeyPoints.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashCodeTest/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashCodeTest/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyboardInputMethod01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyboardInput/KeyboardInputMethod01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyboardInputMethod02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyboardInput/KeyboardInputMethod02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyboardInputMethod03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyboardInput/KeyboardInputMethod03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyboardInputMethod04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyboardInput/KeyboardInputMethod04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VarExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variableOperation/VarExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VarValueRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variableOperation/VarValueRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VariableAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variableOperation/VariableAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/siftOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variableOperation/siftOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,20 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/projects/archProjects/rocketmq"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArraySystemCopy">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayExpansion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayExpansion" />
       <module name="javaBasic" />
@@ -70,19 +78,6 @@
     </configuration>
     <configuration name="ArrayExpansion02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayExpansion02" />
-      <module name="javaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayOperationTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayTest.ArrayOperationTest01" />
       <module name="javaBasic" />
       <extension name="coverage">
         <pattern>
@@ -120,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashCodeTest.Main" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hashCodeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ArraySystemCopy" />
         <item itemvalue="Application.ArrayExpansion02" />
         <item itemvalue="Application.ArrayExpansion" />
         <item itemvalue="Application.ArrayOperationTest02" />
-        <item itemvalue="Application.ArrayOperationTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +151,8 @@
       <workItem from="1670244747530" duration="778000" />
       <workItem from="1670302102487" duration="9400000" />
       <workItem from="1670495036297" duration="7627000" />
-      <workItem from="1670575629103" duration="15775000" />
+      <workItem from="1670575629103" duration="16065000" />
+      <workItem from="1670681192765" duration="2807000" />
     </task>
     <task id="LOCAL-00001" summary="本次主要更新一系列的java键盘输入和数组操作的简单示例">
       <created>1670598530106</created>
@@ -159,7 +168,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670603728676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；">
+      <created>1670603995630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670603995630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="本次主要更新一系列的java键盘输入和数组操作的简单示例;&#10;欢迎大家一起来完善。&#10;本项目主要总结一些常用的基础知识、要点并配以案例，方便大家学习参考以及查询复习，温故而知新，以提高效率；">
+      <created>1670604284267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670604284267</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

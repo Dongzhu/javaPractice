@@ -1,4 +1,4 @@
-/**
+package KeyboardInput; /**
  *
  *  *  下面的代码是先执行 nextInt()，再执行 nextLine()
  *  *  问题：这段代码在输入年龄，敲击enter键后，跳过了输入姓名，直接到了输入身高这里，是什么原因引起的？

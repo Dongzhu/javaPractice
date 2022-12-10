@@ -1,3 +1,5 @@
+package variableOperation;
+
 public class siftOperation {
 
     public static void print(int num){
